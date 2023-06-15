@@ -27,7 +27,7 @@ echo "OPENAI_API_KEY=your-api-key-here" >> .env
 
 ### Setup
 
-```python
+```bash
 pyenv local 3.11.3
 python -m venv .venv
 pip install --upgrade pip

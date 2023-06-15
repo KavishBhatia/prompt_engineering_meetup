@@ -30,6 +30,6 @@ echo "OPENAI_API_KEY=your-api-key-here" >> .env
 ```python
 pyenv local 3.11.3
 python -m venv .venv
-pip install -u pip
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
